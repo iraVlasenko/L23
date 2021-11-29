@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+.alert {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #6d1575;
+    border-radius: 10px;
+    border-radius: 4px;
+    color: #3c763d;
+    background-color: #6d1575;
+}
+#conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    max-width: 1400PX;
+    margin: 0 auto;
+    background-color: #ffb6f9;
+}
+
+/*Табы с переключаелем */
+#windowTabs {
+    width: 1000px;
+    height: 600px;
+    margin: 40px auto;
+    border-radius: 20px;
+    background-color: rgb(252, 223, 245);
+    
+}
+ul {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding-left: 0;
+
+}
+li {
+    box-sizing: border-box;
+    width: 200px;
+    height: 80px;
+    padding: 20px;
+    background-color: rgb(165, 127, 255);
+    text-align: center;
+    list-style: none;
+}
+
+li:nth-child(5) {
+    border-top-right-radius: 20px;
+}
+li:nth-child(1) {
+    border-top-left-radius: 20px;
+    background-color: rgb(252, 223, 245);
+
+
+} 
+.info > div {
+    
+    box-sizing: border-box;
+    width: 1000px;
+    height: 520px;
+    padding: 20px;
+    text-align: center; 
+
+
+}
+
+.no {
+    display: none;
+}
+.selected{
+    background-color: rgb(252, 223, 245);
+
+}
+    
